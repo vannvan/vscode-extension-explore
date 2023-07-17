@@ -1,9 +1,6 @@
 .DS_Store
 node_modules
-/dist
-/directories
-.vscode/
-/docs/*
+**/dist
 pnpm-lock.yaml
 
 
@@ -17,11 +14,3 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
