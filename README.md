@@ -16,6 +16,10 @@
 
 按照资料2实现的，删除光标位置的函数的扩展
 
+### code-actions-sample
+
+<https://github.com/microsoft/vscode-extension-samples/tree/main/code-actions-sample>
+
 ## 注意
 
 - 此项目不能在其它子项目中跑，因为`.vscode`配置可能会互相影响导致跑不起来

@@ -23,6 +23,16 @@
       "args": ["--extensionDevelopmentPath=${workspaceFolder}/delete-function"],
       "outFiles": ["${workspaceFolder}/delete-function/dist/**/*.js"],
       "preLaunchTask": "${defaultBuildTask}"
+    },
+    // 调试code action
+    {
+      "name": "Run code action",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}/code-actions-sample"],
+      "outFiles": ["${workspaceFolder}/code-actions-sample/out/**/*.js"]
+      // "preLaunchTask": "npm: watch"
     }
   ]
 }
